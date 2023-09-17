@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "productName": "Macbook Pro",
+        "productType": "Electronics",
+        "productDescription": "Newphoria. Dynamic Island. 48MP Main camera with 2x Telephoto. Pre-order now. Designed to make a difference. Get to know iPhone 15. A16 Bionic chip. 2x Telephoto. All-day battery life. New 48MP camera. USB-C. iOS 17",
+        "price": 2500.0
+    },
+    {
+        "id": 2,
+        "productName": "Macbook Air",
+        "productType": "Electronics",
+        "productDescription": "Strikingly thin and fast so you can work, play, or create anywhere. Shop now. Buy eligible MacBook Air with education discount. Get a $200 Apple Gift Card. Terms apply. Payment options available. Apple Arcade 3 mos free. Apple TV+ 3 months free.",
+        "price": 1500.0
+    },
+    {
+        "id": 3,
+        "productName": "Apple airpods",
+        "productType": "Electronics",
+        "productDescription": "Accessibility. AirPods are loaded with features to assist with select hearing needs, from focusing on the voice in front of you in noisy surroundings to",
+        "price": 250.0
+    }
+]
