@@ -1,25 +1,27 @@
-/* ProductList.css */
 
-table {
-    border-collapse: collapse;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  
-  table, th, td {
-    border: 1px solid #ddd;
-  }
-  
-  th, td {
-    padding: 12px;
-    text-align: left;
-  }
-  
-  th {
-    background-color: #f2f2f2;
-  }
-  
-  tr:hover {
-    background-color: #f5f5f5;
-  }
-  
+.container {
+    /*display: flex;*/
+    /*overflow-x: scroll;*/
+    /*overflow-block: auto;*/
+    /*width: 100%;*/
+    padding: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cardCss {
+    flex: 1 1  calc(33.33% - 16px); /* Three cards per row */
+    margin: 0.4em;
+    border: solid 1px #555;
+    box-shadow: 3px -3px 5px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 3px -3px 5px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 3px -3px 5px  rgba(0,0,0,0.6);
+    -o-box-shadow: 3px -3px 5px  rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+
+.cardBody{
+    align-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
