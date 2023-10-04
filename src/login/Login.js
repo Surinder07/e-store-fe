@@ -18,7 +18,7 @@ function Login() {
         e.preventDefault(); // Prevent the default form submission behavior
         try {
             const response = await axios.post(
-                'http://localhost:9095/api/auth/authenticate',
+                'http://localhost:8080/api/auth/authenticate',
                 {
                     email: formData.email,
                     password: formData.password,

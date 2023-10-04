@@ -13,7 +13,7 @@ function ProductList() {
 
   useEffect(() => {
       setLoading(false);
-      fetch('http://localhost:9095/api/getAllProducts', {
+      fetch('http://localhost:8080/api/getAllProducts', {
         method: 'GET',
         headers: {
           'Authorization': `Bearer ${token}`,
