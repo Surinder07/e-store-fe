@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import ProductList from "./products/ProductList";
 import Header from "./navMenu/Header";
-import Login from "./login/Login"
+import Login from "./login/Login";
+import Home from "./home/home"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Redirect from "react-router-dom/es/Redirect";
 
@@ -13,8 +14,9 @@ function App() {
           <div className="app">
               <Switch>
                   <Route path="/login" component={Login} />
+                  <Route path="/home" component={Home}/>
                   <Route path="/product" component={ProductList} />
-                  <Redirect from="/" to="/login" />
+                   {/*<Redirect from="/" to="/login" />*/}
                   {/*<Route path="/login">*/}
                   {/*    <Header />*/}
                   {/*    <Login />*/}

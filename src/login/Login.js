@@ -32,7 +32,7 @@ function Login() {
             }
             console.log('Login Successful');
             window.alert(cookie.get("jwt"));
-            history.push('/product');
+            history.push('/home');
         } catch (error) {
             console.error('Login Error:', error);
         }
